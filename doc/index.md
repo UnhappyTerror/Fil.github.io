@@ -1,6 +1,6 @@
 ---
 title: IE 561 Super Resolution project 
-description: 
+description: blurb
 --- 
 
 # What are the challenges we face currently with the arctic satellite imageries? (Kick off question statement)
