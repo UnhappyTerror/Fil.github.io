@@ -5,7 +5,7 @@ description: blurb
 
 # What are the challenges we face currently with the arctic satellite imageries? (Kick off question statement)
 
-Four Novelty Moves approach for abstrat
+Four Novelty Moves approach for abstract
 
 
 # Introduction on Super Resolution technology
@@ -21,8 +21,12 @@ Blurb
 
 # Model Performances
 
+Performance comparisons
+Performance analysis
 
 # Conclusion
+
+Limitations and difficulties
 
 
 # Future Works
