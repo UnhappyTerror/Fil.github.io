@@ -67,6 +67,11 @@ Limitations and difficulties
 
 # Future Works
 
+Try alternate, relevant training sets
+
+Other super resolution algorithms
+
+
 
 # References
 [1] https://seagrant.uaf.edu/topics/environmental-hazards-alaskas-coasts/flooding-erosion/
