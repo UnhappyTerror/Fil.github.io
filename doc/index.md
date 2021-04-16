@@ -65,5 +65,7 @@ Limitations and difficulties
 
 # References
 [1] https://seagrant.uaf.edu/topics/environmental-hazards-alaskas-coasts/flooding-erosion/
+
 [2] https://www.usgs.gov/center-news/updated-assessment-erosion-rates-alaska-s-arctic-coast?qt-news_science_products=3#qt-news_science_products
+
 [3] https://www.researchgate.net/figure/The-butterfly-image-from-the-Set5-dataset-with-an-upscaling-factor-3_fig3_305779418
