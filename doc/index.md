@@ -50,8 +50,19 @@ Super resolution is a class of technique that enhences the resolution of low res
 
 ### SRCNN (Super Resolution Convoluted Neural Network)
 
+Code source
+
+Application steps
+
+PSNR result
+
 ### SRResNet (Super Resolution Residual Network)
 
+Code source
+
+Application steps
+
+PSNR result
 
 
 # Model Performances
@@ -62,7 +73,9 @@ Performance analysis
 
 # Conclusion
 
-Limitations and difficulties
+Final recommendation for the algorithm choice
+
+Limitations and difficulties during the project
 
 
 # Future Works
