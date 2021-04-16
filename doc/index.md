@@ -32,6 +32,7 @@ This team's project was focused on helping the project gain better insight of th
 # Introduction on Super Resolution technology
 
 ![](https://www.researchgate.net/profile/Chen-Change-Loy/publication/305779418/figure/fig3/AS:390953274757123@1470221932952/The-butterfly-image-from-the-Set5-dataset-with-an-upscaling-factor-3.png)
+<br />
 _Visual Comparisons of SR image outputs_ [3]
 
 
