@@ -10,7 +10,7 @@ Why is it important?
 
 What are the current approaches?
 
-What is it about the current approaches that aren't good enough?\
+What is it about the current approaches that aren't good enough?
 
 What is our new approach?
 
@@ -26,7 +26,7 @@ This team's project was focused on helping the project gain better insight of th
 
 # Introduction on Super Resolution technology
 
-![](http://www.sysu-hcp.net/wp-content/uploads/2017/06/4.png)
+![](http://www.sysu-hcp.net/wp-content/uploads/2017/06/3.png)
 _Visual Comparisons of SR image outputs (PSNR/SSIM)_ [1]
 
 
