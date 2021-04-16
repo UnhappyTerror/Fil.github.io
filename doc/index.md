@@ -5,7 +5,7 @@ description: Using super resolution algorithms to refine the arctic satellite im
 
 # What are the challenges we face currently with the arctic satellite imageries? 
 
-Four Novelty Moves approach for abstract
+
 
 Why is it important?
 
@@ -21,13 +21,17 @@ For recent few decades, the arctic regions have gone through major rapid climate
 
 Currently, the required high-resolution imageries are only available in high temporal resolutions (low frequency of imageries throughout the year). In order to make up for this shortcoming, imageries with high temporal resolutions are adopted for the studies. However, the high temporal resolution imageries are often low in spatial (visual) resolution, limiting the clear understanding of the coastline erosions. 
 
-This team's project was focused on helping the project gain better insight of the coastal erosion through improving the resolution of the satellite imageries. By having access to higher resolution imageries of the target regions, significant connections can be deduced between the possible causes and the erosion status. The super resolution algorithms implemented for this project were SRCNN (Super Resolution Convoluted Neural Network) and SRResnet (Super Resolution -----). Two models were ran in comparison using the same images of test set, yielding PSNR (Peak Signal-to-Noise Ratio) scores.
+This team's project was focused on helping the project gain better insight of the coastal erosion through improving the resolution of the satellite imageries. By having access to higher resolution imageries of the target regions, significant connections can be deduced between the possible causes and the erosion status. The super resolution algorithms implemented for this project were SRCNN (Super Resolution Convoluted Neural Network) and SRResnet (Super Resolution Residual Network). Two models were ran in comparison using the same images of test set, yielding PSNR (Peak Signal-to-Noise Ratio) scores.
 
 
 
 # Introduction on Super Resolution technology
 
+![](http://www.sysu-hcp.net/wp-content/uploads/2017/06/4.png)
+_Visual Comparisons of SR image outputs (PSNR/SSIM)_ [1]
 
+
+Super resolution is a class of technique that enhences the resolution of low resolution (LR) images into high resolution (HR) images. Many different algorithms have been developed and implemented to execute this task. Some of the popular names include SRCNN, F-SRCNN (Fast SRCNN), VDSR (Very Deep Super Resolution), SRF (Super Resolution Forests), Structure-Preserving Image Super Resolution (SPSR) and SRRResNet. In order to quantifiably measure the performance of the algorithms and compare them to one another, there are metrics such as PSNR and SSIM (Structural Similarity).
 
 
 # Methods
@@ -38,6 +42,7 @@ The project underwent the following steps.
 4. Designing and submitting Github project presentation page
 ### SRCNN
 ### SRResNet
+
 
 
 # Model Performances
