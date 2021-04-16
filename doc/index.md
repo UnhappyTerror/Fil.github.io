@@ -3,6 +3,13 @@ title: IE 561 Super Resolution project
 description: Using super resolution algorithms to refine the arctic satellite imageries
 --- 
 
+The project underwent the following steps.
+1. Compare the models that are currently being used; SRCNN and SRResnet
+2. Compare the two models by PSNR score, pick the best model to use for Dr Farquharson.
+3. Create the pipeline for Dr Farquharson. (Ideally simple enough that she only has to type in image size and file location.)
+4. Designing and submitting Github project presentation page
+
+
 # What are the challenges we face currently with the arctic satellite imageries? 
 
 
@@ -40,13 +47,10 @@ Super resolution is a class of technique that enhences the resolution of low res
 
 
 # Methods
-The project underwent the following steps.
-1. Compare the models that are currently being used; SRCNN and SRResnet
-2. Compare the two models by PSNR score, pick the best model to use for Dr Farquharson.
-3. Create the pipeline for Dr Farquharson. (Ideally simple enough that she only has to type in image size and file location.)
-4. Designing and submitting Github project presentation page
-### SRCNN
-### SRResNet
+
+### SRCNN (Super Resolution Convoluted Neural Network)
+
+### SRResNet (Super Resolution Residual Network)
 
 
 
