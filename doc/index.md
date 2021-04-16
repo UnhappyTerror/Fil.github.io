@@ -31,7 +31,7 @@ This team's project was focused on helping the project gain better insight of th
 
 # Introduction on Super Resolution technology
 
-![](http://www.sysu-hcp.net/wp-content/uploads/2017/06/3.png)
+![](https://www.researchgate.net/profile/Chen-Change-Loy/publication/305779418/figure/fig3/AS:390953274757123@1470221932952/The-butterfly-image-from-the-Set5-dataset-with-an-upscaling-factor-3.png)
 _Visual Comparisons of SR image outputs (PSNR/SSIM)_ [3]
 
 
@@ -66,4 +66,4 @@ Limitations and difficulties
 # References
 [1] https://seagrant.uaf.edu/topics/environmental-hazards-alaskas-coasts/flooding-erosion/
 [2] https://www.usgs.gov/center-news/updated-assessment-erosion-rates-alaska-s-arctic-coast?qt-news_science_products=3#qt-news_science_products
-[3] http://www.sysu-hcp.net/structure-preserving-image-super-resolution/
+[3] https://www.researchgate.net/figure/The-butterfly-image-from-the-Set5-dataset-with-an-upscaling-factor-3_fig3_305779418
