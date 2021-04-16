@@ -15,6 +15,7 @@ What is it about the current approaches that aren't good enough?
 What is our new approach?
 
 ![](https://seagrant.uaf.edu/topics/environmental-hazards-alaskas-coasts/flooding-erosion/images/mvc-009f.jpg)
+<br />
 _Erosion in Sheshmaref, Alaska_ [1]
 
 For recent few decades, the arctic regions have gone through major rapid climate changes, directly affecting the geology of the environment. There are damages done to the communities on the coastline and permafrost terrains as the terrains erode. The PIPER project (People Infrastructure Permafrost Resilience) addresses this problem by understand the relationship and mutual impacts of continued climate change in the arctic reflected in the following components: permafrost degradation and coastal erosion, civil infrastructure and development, and community well-being and sociodemographic and cultural resilience.
@@ -62,3 +63,7 @@ Limitations and difficulties
 # Future Works
 
 
+# References
+[1] https://seagrant.uaf.edu/topics/environmental-hazards-alaskas-coasts/flooding-erosion/
+[2] https://www.usgs.gov/center-news/updated-assessment-erosion-rates-alaska-s-arctic-coast?qt-news_science_products=3#qt-news_science_products
+[3] http://www.sysu-hcp.net/structure-preserving-image-super-resolution/
