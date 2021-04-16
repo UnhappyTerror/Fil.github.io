@@ -6,7 +6,6 @@ description: Using super resolution algorithms to refine the arctic satellite im
 # What are the challenges we face currently with the arctic satellite imageries? 
 
 
-
 Why is it important?
 
 What are the current approaches?
