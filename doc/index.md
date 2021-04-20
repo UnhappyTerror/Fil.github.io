@@ -47,13 +47,23 @@ Super resolution is a class of technique that enhences the resolution of low res
 
 # Methods
 
-### Structure and Settings
+### Steps
 
-Splitting the image
+#### Splitting the image
 
-Run through algorithm for refinement
+The Team used greyscale satellite imagery of Kaktovik, Alaska that was taken in the 60’s as the training and test set. This image was sliced into smaller images each in the size of 128 x 128 pixels in order to procure ample training and test set data objectives for the algorithm. The super resolution models were pre-trained algorithms from the mentioned sources.
 
-Combining the split images back together
+#### Run through algorithm for refinement
+
+
+
+#### Combining the split images back together
+
+After the split imageries go through super resolution, the images are combined back into its original shape and order for intuitive visual comparison with the original image and the competing algorithm's output.
+
+#### Visual comparison and PSNR comparison
+
+
 
 ### SRCNN (Super Resolution Convoluted Neural Network)
 
@@ -87,9 +97,9 @@ Limitations and difficulties during the project
 
 # Future Works
 
-Try alternate, relevant training sets
+Try additional, relevant training sets on the algorithm
 
-Other super resolution algorithms
+Utilize other super resolution algorithms
 
 
 
