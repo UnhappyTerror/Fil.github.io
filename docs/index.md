@@ -44,6 +44,10 @@ Super resolution is a class of technique that enhences the resolution of low res
 
 #### 1) Splitting the image
 
+![]http://www.andrewjanowczyk.com/wp-content/uploads/2016/07/small_tiles.png
+<br />
+_Splitting large image into small pieces_ [4]
+
 The Team selected greyscale satellite imagery taken from Kaktovik, Alaska that was taken in the 1960’s as the training and test set. This image was sliced into smaller images each in the size of 128 x 128 pixels in order to procure ample training and test set data objectives for the algorithm. The super resolution models were pre-trained algorithms from the recognized sources.
 
 #### 2) Run data objects through algorithm for refinement
