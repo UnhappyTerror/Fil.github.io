@@ -115,3 +115,5 @@ Utilize other super resolution algorithms
 [2] https://www.usgs.gov/center-news/updated-assessment-erosion-rates-alaska-s-arctic-coast?qt-news_science_products=3#qt-news_science_products
 
 [3] https://www.researchgate.net/figure/The-butterfly-image-from-the-Set5-dataset-with-an-upscaling-factor-3_fig3_305779418
+
+[4] http://www.andrewjanowczyk.com/dividing-and-re-merging-large-images-humpty-dumpty/
