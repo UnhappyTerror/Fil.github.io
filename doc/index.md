@@ -3,7 +3,7 @@ title: IE 561 Super Resolution project
 description: Using super resolution algorithms to refine the arctic satellite imageries
 --- 
 
-# What are the challenges we face currently with the arctic satellite imageries? 
+# What are the challenges we face currently with the arctic satellite imageries???? 
 
 
 
