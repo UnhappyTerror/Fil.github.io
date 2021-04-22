@@ -44,7 +44,7 @@ Super resolution is a class of technique that enhences the resolution of low res
 
 #### 1) Splitting the image
 
-![]http://www.andrewjanowczyk.com/wp-content/uploads/2016/07/small_tiles.png
+![](http://www.andrewjanowczyk.com/wp-content/uploads/2016/07/small_tiles.png)
 <br />
 _Splitting large image into small pieces_ [4]
 
