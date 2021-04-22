@@ -9,7 +9,7 @@ description: Using super resolution algorithms to refine the arctic satellite im
 
 ![](https://seagrant.uaf.edu/topics/environmental-hazards-alaskas-coasts/flooding-erosion/images/mvc-009f.jpg)
 <br />
-_Erosion in Sheshmaref, Alaska_ [1]
+_Damage due to coastal erosion in Sheshmaref, Alaska_ [1]
 
 ### Why is it important?
 
@@ -46,7 +46,7 @@ Super resolution is a class of technique that enhences the resolution of low res
 
 ![](http://www.andrewjanowczyk.com/wp-content/uploads/2016/07/small_tiles.png)
 <br />
-_Splitting large image into small pieces_ [4]
+_Example of splitting large image into small pieces_ [4]
 
 The Team selected greyscale satellite imagery taken from Kaktovik, Alaska that was taken in the 1960’s as the training and test set. This image was sliced into smaller images each in the size of 128 x 128 pixels in order to procure ample training and test set data objectives for the algorithm. The super resolution models were pre-trained algorithms from the recognized sources.
 
