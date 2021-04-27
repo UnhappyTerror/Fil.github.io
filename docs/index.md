@@ -67,7 +67,7 @@ Side by side comparison of the input and the output images not only provide dire
 
 ### SRCNN (Super Resolution Convoluted Neural Network)
 
-Code source
+SRCNN model code
 
 ```Python
 def model():
@@ -106,6 +106,11 @@ print("Hello, World!")
 
 PSNR result
 
+![WeChat Image_20210427001532 - Copy](https://user-images.githubusercontent.com/74638365/116193281-1e497780-a6fd-11eb-94fe-1340caed6225.jpg)
+![WeChat Image_20210427001532](https://user-images.githubusercontent.com/74638365/116193297-22759500-a6fd-11eb-8aa3-40c1b8d56dd8.jpg)
+
+![WeChat Image_20210427001524 - Copy](https://user-images.githubusercontent.com/74638365/116193337-315c4780-a6fd-11eb-83da-c290bfca3646.jpg)
+![WeChat Image_20210427001524](https://user-images.githubusercontent.com/74638365/116193334-30c3b100-a6fd-11eb-930c-ec6dfd661517.jpg)
 
 
 
