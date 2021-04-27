@@ -3,7 +3,7 @@ title: IE 561 Super Resolution project
 description: Using super resolution algorithms to refine the arctic satellite imageries
 --- 
 
-# What are the challenges we face currently with the arctic satellite imageries?
+# What are the challenges we face today with the available arctic satellite imageries?
 
 
 
@@ -11,14 +11,14 @@ description: Using super resolution algorithms to refine the arctic satellite im
 <br />
 _Damage due to coastal erosion in Sheshmaref, Alaska_ [1]
 
-### Why is it important?
+### Why is this important?
 
 For recent few decades, the arctic regions have gone through major rapid climate changes, directly affecting the geology of the environment. There are damages done to the communities on the coastline and permafrost terrains as the terrains erode. The PIPER project (People Infrastructure Permafrost Resilience) addresses this problem by understand the relationship and mutual impacts of continued climate change in the arctic reflected in the following components: permafrost degradation and coastal erosion, civil infrastructure and development, and community well-being and sociodemographic and cultural resilience.
 
 ![](https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/thumbnails/image/GibbsRichmond2015_NorthSlopeShorelineChangeSM.jpg)
 _Alaskan shoreline erosion rate_ [2]
 
-### What are the current approaches and what are its shortcomings?
+### What are the current approaches and what are their shortcomings?
 
 Currently, the required high-resolution imageries are only available in high temporal resolutions (low frequency of imageries throughout the year). In order to make up for this shortcoming, imageries with high temporal resolutions are adopted for the studies. However, the high temporal resolution imageries are often low in spatial (visual) resolution, limiting the clear understanding of the coastline erosions. 
 
@@ -35,7 +35,8 @@ This team's project was focused on helping the project gain better insight of th
 _Visual Comparisons of SR image outputs_ [3]
 
 
-Super resolution is a class of technique that enhences the resolution of low resolution (LR) images into high resolution (HR) images. Many different algorithms have been developed and implemented to execute this task. Some of the popular names include SRCNN, F-SRCNN (Fast SRCNN), VDSR (Very Deep Super Resolution), SRF (Super Resolution Forests), SPSR (Structure-Preserving Image Super Resolution), and SRRResNet. In order to quantifiably measure the performance of the algorithms and compare them to one another, there are metrics such as PSNR and SSIM (Structural Similarity).
+Similar to the deep learning and computer vision technologies, super resolution started getting more attention in academia and industries as the data availability and computational capability increased drastically in the past decade. Super resolutio
+n is a class of technique that enhences the resolution of low resolution (LR) images into high resolution (HR) images. Many different algorithms have been developed and implemented to execute this task. Some of the popular names include SRCNN, F-SRCNN (Fast SRCNN), VDSR (Very Deep Super Resolution), SRF (Super Resolution Forests), SPSR (Structure-Preserving Image Super Resolution), and SRRResNet. In order to quantifiably measure the performance of the algorithms and compare them to one another, there are metrics such as PSNR and SSIM (Structural Similarity).
 
 
 # Methods
@@ -52,7 +53,7 @@ The Team selected greyscale satellite imagery taken from Kaktovik, Alaska that w
 
 #### 2) Run data objects through algorithm for refinement
 
-Both algorithms were used for the same image set for accurate performance comparison. 
+The same image set was used for both super resolution algorithms for apples-to-apples performance comparison. For this team's case, refinement of each 128x128 image slice took around 0.15 seconds to process, which summed up to around 12 minutes to process 6,000 images in total.
 
 #### 3) Combining the split images back together
 
@@ -60,7 +61,9 @@ After the split imageries go through super resolution, the images are combined b
 
 #### 4) Visual comparison and PSNR comparison
 
-asdf
+Side by side comparison of the input and the output images not only provide direct and intuitive comparison between the before and after, but also provides insights on how the images were affected by the algorithm. Certain types of patterns and/or changes were spotted through this process.
+
+
 
 ### SRCNN (Super Resolution Convoluted Neural Network)
 
