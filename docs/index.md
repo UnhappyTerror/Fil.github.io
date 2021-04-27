@@ -37,6 +37,7 @@ _Visual Comparisons of SR image outputs_ [3]
 Similar to the deep learning and computer vision technologies, super resolution started getting more attention in academia and industries as the data availability and computational capability increased drastically in the past decade. Super resolutio
 n is a class of technique that enhences the resolution of low resolution (LR) images into high resolution (HR) images. Many different algorithms have been developed and implemented to execute this task. Some of the popular names include SRCNN, F-SRCNN (Fast SRCNN), VDSR (Very Deep Super Resolution), SRF (Super Resolution Forests), SPSR (Structure-Preserving Image Super Resolution), and SRRResNet. In order to quantifiably measure the performance of the algorithms and compare them to one another, there are metrics such as PSNR and SSIM (Structural Similarity).
 
+For additional information about super resolution, please refer to the following research effort: [Image Super-Resolution Using Deep Convolutional Networks](https://ieeexplore.ieee.org/document/7115171).
 
 # Methods
 
