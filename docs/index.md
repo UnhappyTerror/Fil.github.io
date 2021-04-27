@@ -133,7 +133,7 @@ class _NetG(nn.Module):
         self.conv_output = nn.Conv2d(in_channels=64, out_channels=3, kernel_size=9, stride=1, padding=4, bias
 ```
 
-PSNR result
+SRResNet result
 
 <img src = https://user-images.githubusercontent.com/74638365/116193281-1e497780-a6fd-11eb-94fe-1340caed6225.jpg width = "300" height = "300"> <img src = https://user-images.githubusercontent.com/74638365/116193297-22759500-a6fd-11eb-8aa3-40c1b8d56dd8.jpg width = "300" height = "300">
 
