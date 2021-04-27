@@ -106,14 +106,9 @@ print("Hello, World!")
 
 PSNR result
 
-<img src = https://user-images.githubusercontent.com/74638365/116193281-1e497780-a6fd-11eb-94fe-1340caed6225.jpg width = "400" height = "400"> 
-<img src = https://user-images.githubusercontent.com/74638365/116193297-22759500-a6fd-11eb-8aa3-40c1b8d56dd8.jpg width = "400" height = "400">
+<img src = https://user-images.githubusercontent.com/74638365/116193281-1e497780-a6fd-11eb-94fe-1340caed6225.jpg width = "300" height = "300"> <img src = https://user-images.githubusercontent.com/74638365/116193297-22759500-a6fd-11eb-8aa3-40c1b8d56dd8.jpg width = "300" height = "300">
 
-
-
-![WeChat Image_20210427001524 - Copy](https://user-images.githubusercontent.com/74638365/116193337-315c4780-a6fd-11eb-83da-c290bfca3646.jpg) 
-![WeChat Image_20210427001524](https://user-images.githubusercontent.com/74638365/116193334-30c3b100-a6fd-11eb-930c-ec6dfd661517.jpg)
-
+<img src = https://user-images.githubusercontent.com/74638365/116193337-315c4780-a6fd-11eb-83da-c290bfca3646.jpg width = "300" height = "300"> <img src = https://user-images.githubusercontent.com/74638365/116193334-30c3b100-a6fd-11eb-930c-ec6dfd661517.jpg width = "300" height = "300">
 
 
 # Conclusion
