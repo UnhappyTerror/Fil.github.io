@@ -52,7 +52,7 @@ The Team selected greyscale satellite imagery taken from Kaktovik, Alaska that w
 
 #### 2) Run data objects through algorithm for refinement
 
-asdf
+Both algorithms were used for the same image set for accurate performance comparison. 
 
 #### 3) Combining the split images back together
 
@@ -70,9 +70,13 @@ Code source
 print("Hello, World!")
 ```
 
-Application steps
-
 PSNR result
+
+![fig1](https://user-images.githubusercontent.com/74638365/116183696-5d230180-a6ec-11eb-85f7-a9ca1f68d07e.jpg)
+<br />
+![fig2](https://user-images.githubusercontent.com/74638365/116183700-5f855b80-a6ec-11eb-8232-948ed7851bfb.jpg)
+_Original input vs SRCNN output_
+
 
 ### SRResNet (Super Resolution Residual Network)
 
@@ -82,9 +86,13 @@ Code source
 print("Hello, World!")
 ```
 
-Application steps
-
 PSNR result
+
+![WeChat Image_20210427001007](https://user-images.githubusercontent.com/74638365/116184159-374a2c80-a6ed-11eb-9bae-6c542caeced1.jpg)
+![WeChat Image_20210427001028](https://user-images.githubusercontent.com/74638365/116184185-403afe00-a6ed-11eb-8c7e-4fd6a5e3a292.jpg)
+
+![WeChat Image_20210427001034](https://user-images.githubusercontent.com/74638365/116184191-44ffb200-a6ed-11eb-8b47-9972a50c7a02.jpg)
+![WeChat Image_20210427001023](https://user-images.githubusercontent.com/74638365/116184196-47620c00-a6ed-11eb-9d39-be562e7a639e.jpg)
 
 
 # Model Performances
