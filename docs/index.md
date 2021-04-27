@@ -95,7 +95,7 @@ def model():
     return SRCNN
 ```
 
-PSNR result
+SRCNN result
 
 ![fig1](https://user-images.githubusercontent.com/74638365/116183696-5d230180-a6ec-11eb-85f7-a9ca1f68d07e.jpg)
 <br />
