@@ -6,7 +6,6 @@ description: Using super resolution algorithms to refine the arctic satellite im
 # What are the challenges we face today with the available arctic satellite imageries?
 
 
-
 ![](https://seagrant.uaf.edu/topics/environmental-hazards-alaskas-coasts/flooding-erosion/images/mvc-009f.jpg)
 <br />
 _Damage due to coastal erosion in Sheshmaref, Alaska_ [1]
@@ -51,6 +50,13 @@ _Example of splitting large image into small pieces_ [4]
 
 The Team selected greyscale satellite imagery taken from Kaktovik, Alaska that was taken in the 1960’s as the training and test set. This image was sliced into smaller images each in the size of 128 x 128 pixels in order to procure ample training and test set data objectives for the algorithm. The super resolution models were pre-trained algorithms from the recognized sources.
 
+```Python
+img = cv2.imread(r'C:\Users\UnhappyTerror\Desktop\IE 561\Project\SRResnet\Kaktovik_ca1950.tif')
+for r in range(0,img.shape[0],128):
+    for c in range(0,img.shape[1],128):
+        cv2.imwrite(f'img{r}_{c}.png',img[r:r+128,c:c+128,:])
+```
+
 #### 2) Run data objects through algorithm for refinement
 
 The same image set was used for both super resolution algorithms for apples-to-apples performance comparison. For this team's case, refinement of each 128x128 image slice took around 0.15 seconds to process, which summed up to around 12 minutes to process 6,000 images in total.
@@ -67,7 +73,7 @@ Side by side comparison of the input and the output images not only provide dire
 
 ### SRCNN (Super Resolution Convoluted Neural Network)
 
-SRCNN model code
+SRCNN model sample codes
 
 ```Python
 def model():
@@ -98,10 +104,32 @@ _Original input vs SRCNN output_
 
 ### SRResNet (Super Resolution Residual Network)
 
-Code source
+SRResNet model sample codes
 
 ```Python
-print("Hello, World!")
+
+class _NetG(nn.Module):
+    def __init__(self):
+        super(_NetG, self).__init__()
+
+        self.conv_input = nn.Conv2d(in_channels=3, out_channels=64, kernel_size=9, stride=1, padding=4, bias=False)
+        self.relu = nn.LeakyReLU(0.2, inplace=True)
+        
+        self.residual = self.make_layer(_Residual_Block, 16)
+
+        self.conv_mid = nn.Conv2d(in_channels=64, out_channels=64, kernel_size=3, stride=1, padding=1, bias=False)
+        self.bn_mid = nn.InstanceNorm2d(64, affine=True)
+
+        self.upscale4x = nn.Sequential(
+            nn.Conv2d(in_channels=64, out_channels=256, kernel_size=3, stride=1, padding=1, bias=False),
+            nn.PixelShuffle(2),
+            nn.LeakyReLU(0.2, inplace=True),
+            nn.Conv2d(in_channels=64, out_channels=256, kernel_size=3, stride=1, padding=1, bias=False),
+            nn.PixelShuffle(2),
+            nn.LeakyReLU(0.2, inplace=True),
+        )
+
+        self.conv_output = nn.Conv2d(in_channels=64, out_channels=3, kernel_size=9, stride=1, padding=4, bias
 ```
 
 PSNR result
@@ -110,16 +138,21 @@ PSNR result
 
 <img src = https://user-images.githubusercontent.com/74638365/116193337-315c4780-a6fd-11eb-83da-c290bfca3646.jpg width = "300" height = "300"> <img src = https://user-images.githubusercontent.com/74638365/116193334-30c3b100-a6fd-11eb-930c-ec6dfd661517.jpg width = "300" height = "300">
 
+_Original input vs SRResNet output_
+
 
 # Conclusion
 
 ### Final recommendation on the algorithm choice
 
-Both algorithms showed significant results in improving the resolution and definition of the satellite images. Comparing the two techniques, SRCNN yielded higher PSNR score, proving itself to be favorable. 
+Both algorithms showed significant results in improving the resolution and definition of the satellite images. Comparing the two techniques, SRCNN yielded higher PSNR score, proving itself to be favorable. In a visual sense, SRCNN's output had cleaner edges and definition shown on land-sea division. The black and white greyscale was also clearer. These refined features are expected to be useful change for the coastal erosion analysis.
 
 ### Limitations and difficulties during the project
 
-
+- Modifying/customizing pre-existing super resolution models 
+- deficiencies in handling Python neural network 
+- Inherent upper bound of file size the models can handle
+- Complexity of imagery file structure (bandwidths, color depth, physical units, etc.)
 
 # Future Works
 
