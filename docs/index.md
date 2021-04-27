@@ -70,7 +70,10 @@ After the split imageries go through super resolution, the images are combined b
 
 Side by side comparison of the input and the output images not only provide direct and intuitive comparison between the before and after, but also provides insights on how the images were affected by the algorithm. Certain types of patterns and/or changes were spotted through this process.
 
-
+| Algorithm   | PSNR score  |
+| ----------- | ----------- |
+| SRCNN       | 35.2        |
+| SRResNet    | 33.736       |
 
 ### SRCNN (Super Resolution Convoluted Neural Network)
 
