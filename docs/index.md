@@ -88,32 +88,24 @@ print("Hello, World!")
 
 PSNR result
 
-![WeChat Image_20210427001007](https://user-images.githubusercontent.com/74638365/116184159-374a2c80-a6ed-11eb-9bae-6c542caeced1.jpg)
-![WeChat Image_20210427001028](https://user-images.githubusercontent.com/74638365/116184185-403afe00-a6ed-11eb-8c7e-4fd6a5e3a292.jpg)
 
-![WeChat Image_20210427001034](https://user-images.githubusercontent.com/74638365/116184191-44ffb200-a6ed-11eb-8b47-9972a50c7a02.jpg)
-![WeChat Image_20210427001023](https://user-images.githubusercontent.com/74638365/116184196-47620c00-a6ed-11eb-9d39-be562e7a639e.jpg)
-
-
-# Model Performances
-
-Performance comparisons
-
-Performance analysis
 
 
 # Conclusion
 
-Final recommendation on the algorithm choice
+### Final recommendation on the algorithm choice
 
-Limitations and difficulties during the project
+Both algorithms showed significant results in improving the resolution and definition of the satellite images. Comparing the two techniques, SRCNN yielded higher PSNR score, proving itself to be favorable. 
+
+### Limitations and difficulties during the project
+
 
 
 # Future Works
 
-Try additional, relevant training sets on the algorithm
+The team focused on building and testing the model with one specific satellite imagery. While this was suffice for the first step, in order to build a stronger case on its performance and further develop its uses, feeding additional, relevant sets of satellite images is expected to be beneficial.
 
-Utilize other super resolution algorithms
+Moreover, as mentioned above, there are numerous pre-established super resolution algorithms available for usage. While this team only got to explore a few of the options due to limitations in time and proficiencies in the domain, exploring more algorithms to weigh the options and to find the most suitable tool for the arctic environment satellite imageries will be helpful in moving forward with PIPER project.
 
 
 
